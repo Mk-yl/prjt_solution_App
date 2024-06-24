@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Maui_prj_solution_app.MainPage">
+
+    <VerticalStackLayout Padding="30">
+        <Label Text="Entrer le prénom" />
+        <Entry x:Name="PrenomEntry" Placeholder="Prénom" />
+        
+        <Label Text="Entrer l'année" />
+        <Entry x:Name="AnneeEntry" Placeholder="Année" Keyboard="Numeric" />
+        
+        <Button Text="Rechercher" Clicked="OnRechercherClicked" />
+        
+        <Label x:Name="ResultatLabel" />
+    </VerticalStackLayout>
+</ContentPage>
+
